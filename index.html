@@ -14,9 +14,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
 
-        <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="container-fluid d-flex justify-content-between align-items-center ">
             <!-- lists -->
             <div class="left-content">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -24,7 +24,7 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -81,16 +81,210 @@
             <!-- search -->
             <div class="right-content search-container">
                 <form class="d-flex search-container justify-content-between align-items-center" role="search">
-                    <input class="me-2 forminput" type="search" placeholder="Search" aria-label="Search">
+                    <input class="me-2 forminput"  id="search-input" type="search" placeholder="Search" aria-label="Search">
                     <div class="d-flex justify-content-evenly align-items-center icons-container">
                         <i class="fa-solid fa-magnifying-glass icon"></i>
                         <i class="fa-solid fa-user icon"></i>
+                        <i class="fa-solid fa-cart-plus icon"></i>
                     </div>
                 </form>
             </div>
+          
         </div>
         </div>
+       
     </nav>
+    <div id="products-container" class="products-container">
+        <!-- Filtered products will be displayed here -->
+    </div>
+    <main>
+        <!-- header section code -->
+        <section class="header">
+            <img src="images/3.jpeg" class="image image11">
+            <img src="images/2.jpeg" class="image image2">
+            <img src="images/4.jpeg" class="image image3">
+            <img src="images/in.jpeg" class="image image4">
+            <img src="images/5.jpg" class="image image5">
+            <img src="images/6.jpg" class="image image6">
+
+            <div class="text-content">
+                <h1>Welcome to GleamGem</h1>
+                <p>Your ultimate destination for timeless jewelry pieces.</p>
+                <button class="oval-button">See More</button>
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </div>
+        </section>
+          <!-- about as section code -->
+        <section class="about" id="about">
+            <section class="about_content">
+                <div>
+                    <h1 class="h1">who we are</h1>
+                    <p class="aboutas"> At GleamGem, we create timeless jewelry that tells your story. With exceptional craftsmanship
+                        and unmatched quality, we add elegance to your special moments and help you create lasting
+                        memories. </p>
+                </div>
+                <div>
+                    <button class="oval-button">Shop Now</button>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+
+
+            </section>
+            <section class="about_image">
+                <div class="image-wrapper">
+                    <img src="images/header.jpg" class="image1">
+                </div>
+            </section>
+
+        </section>
+        <!-- categieries section code -->
+        <section class="categieries">
+            <h2>Categories</h2>
+            <div class="cate_list">
+                <ol type="none">
+                    <li>
+                        <span class="number">01</span>
+                        <img src="images/Earrings.jpg" class="hover-image">
+                        Earrings
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </li>
+                    <li>
+                        <span class="number">02</span>
+                        <img src="images/rings.jpg" class="hover-image">
+
+                        Rings
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </li>
+                    <li>
+                        <span class="number">03</span>
+                        <img src="images/Necklaces .jpg" class="hover-image">
+
+                        Necklaces
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="styling">
+                <img src="images/jwullary.png">
+             </div>
+        </section>
+        <!-- unique accessories section code -->  
+        <section class="accessories">
+            <h2>unique accessories</h2>
+            <div class="content_acce">
+                <p class="p1">If you want</p>
+                <p class="p2">a unique</p>
+                <p class="p3">accessory</p>
+                <a href="#">See More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="images_ass">
+                <img src="images/uniq5.jpg" class="imag1">
+                <img src="images/uniq1.jpg" class="imag2">
+                <img src="images/uig3.jpg" class="imag3">
+            </div>
+
+
+
+        </section>
+        <!-- follow in instagram section code -->
+         <section class="follow">
+            <div class="follow_content">
+                <p>@GleamGem_jewerly</p>
+                <div class="pla">
+                <h1 >Follow us</h1>
+                <p class="plaa">in instagram</p>
+            </div>
+            </div>
+            <div class="follow_image">
+                <img src="images/follow1.jpg" class="img1">
+                <img src="images/follow2.jpg" class="img2">
+                <img src="images/follow3.jpg" class="img3">
+                <img src="images/follow5.jpg" class="img4">
+            </div>
+
+         </section>
+        <!-- footer section code -->
+        <section class="footer">
+            <div class="conect">
+                <div class="class1">
+                    <a href="#">New</a>
+                    <a href="#">catalog</a>
+                    <a href="#">About me</a>
+                    <a href="#">My blog</a>
+                </div>
+                <div class="class2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="class3">
+                    <a href="#">FAQ</a>
+                    <a href="#">Exchange and return</a>
+                </div>
+
+            </div>
+            <div class="class4">
+                <p>If you want <br>a unique accessory</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Send a massage
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">If you want a unique accessory </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Your Name</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Your Email</label>
+                    <input type="email" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Your Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn massage">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
